@@ -11,7 +11,7 @@ metadata:
 
 spec:
   containers:
-    name: almalinux
+  - name: almalinux
     image: almalinux:8
-  ports:
-  - containerPort: 80  
+    ports:
+    - containerPort: 80  
