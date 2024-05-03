@@ -7,7 +7,7 @@ metadata:
     course: devops
   annotations:
     trainning-duration: "120-hours"
-    github.url: https://github.com/sridevi2009/prac-k8-resources
+    github.url: https://hub.docker.com/repository/docker/dockerhub2009/payment/general
 
 spec:
   containers:
