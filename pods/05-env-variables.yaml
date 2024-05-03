@@ -10,4 +10,4 @@ spec:
     - name: demo-greetings
       vale: "hello from the environment"
     - name: demo-env
-      value: success stories    
+      value: "success stories"    
