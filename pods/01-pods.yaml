@@ -8,6 +8,6 @@ spec:
   - name: pod-1
     image: nginx
     ports:
-    - contaierPort: 80
+    - containerPort: 80
           
 
