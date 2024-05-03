@@ -5,10 +5,10 @@ metadata:
   namespace: roboshop
 spec:
   containers:
-  - name: container-1
+  - name: nginx
     image: nginx
     ports:
     - containerPort: 80
-  - name: container-2
-    image: dockerhub2009/mongodb:v1
+  - name: almalinux
+    image: almalinux:8
     command: ["sleep","300"]    
