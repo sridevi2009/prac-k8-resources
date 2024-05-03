@@ -30,7 +30,7 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
-    envfrom:
+    envFrom:
     - configMapKeyRef:
         name: devops-config
    
