@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: anotations
+  labels:
+    trainer: sivakumar
+    course: devops
+  annotations:
+    trainning-duration: "120-hours"
+    github_url: https://github.com/sridevi2009/prac-k8-resources
+
+spec:
+  containers:
+    name: almalinux
+    image: almalinux:8
+  ports:
+  - containerPort: 80  
